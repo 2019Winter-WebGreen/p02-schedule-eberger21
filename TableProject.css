@@ -1,0 +1,31 @@
+/*
+* Erin Berger
+* March 21, 2019 
+* Table Project 
+*/
+
+/* The universal selector */
+
+* . {
+
+}
+
+/* Body attributes here */
+
+body {
+
+    background-color: darkgray
+    
+}
+
+/* this is the border color for the borders of the table */ 
+table, td, th { border: 1px solid black; }
+
+/* this collapses the space between the cells */ 
+table { border-collapse: collapse; }
+
+/* these are the colors for my table head, table body, and table foot */
+
+thead { background-color: lightpink; }
+tbody { background-color: blanchedalmond; }
+tfoot { background-color: cadetblue; }
